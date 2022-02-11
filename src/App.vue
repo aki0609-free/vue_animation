@@ -1,4 +1,5 @@
 <template>
+<div>
   <div class="container">
     <div class="block"></div>
     <button>Animate</button>
@@ -10,6 +11,7 @@
   <div class="container">
     <button @click="showDialog">Show Dialog</button>
   </div>
+</div>
 </template>  
 
 <script>

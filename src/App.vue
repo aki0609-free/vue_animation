@@ -1,14 +1,16 @@
 <template>
-  <div class="container">
-    <div class="block"></div>
-    <button>Animate</button>
-  </div>
-  <base-modal @close="hideDialog" v-if="dialogIsVisible">
-    <p>This is a test dialog!</p>
-    <button @click="hideDialog">Close it!</button>
-  </base-modal>
-  <div class="container">
-    <button @click="showDialog">Show Dialog</button>
+  <div>
+    <div class="container">
+      <div class="block"></div>
+      <button>Animate</button>
+    </div>
+    <base-modal @close="hideDialog" v-if="dialogIsVisible">
+      <p>This is a test dialog!</p>
+      <button @click="hideDialog">Close it!</button>
+    </base-modal>
+    <div class="container">
+      <button @click="showDialog">Show Dialog</button>
+    </div>
   </div>
 </template>  
 
